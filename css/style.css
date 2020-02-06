@@ -1,0 +1,204 @@
+.navbar-cstm{
+	background:white;
+}
+.hero {
+    background: url(../img/hero-img.png) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 180px 0;
+     color:#c5cdc4;
+}
+.btn-cstm{
+	 background: #99c50a;
+	padding: 10px;  
+}
+.hero h2{
+	margin-bottom: 30px;
+	font-style: 50pt;
+}
+.hero h6{
+	margin-bottom: 60px;
+	font-size: 35pt;
+}
+/* two section start*/
+.two{
+	padding: 85px 0 140px 0;
+	text-align: center;
+	line-height: 30px;
+}
+/* section three start*/
+.three{
+
+}
+.three img{
+	display: block;
+	margin-top: 85px;
+}
+.content{
+	padding: 40px 0;
+}
+.three-a{
+	background:#e2f8ff; 
+
+}
+.btn-cstm-1{
+	   
+}
+
+
+
+.three-b{
+	background:#f5f9eb;
+
+}
+.btn-cstm-2{
+	   
+}
+
+/* section four start*/
+.four-one{
+	padding: 86px 0 60px 0;
+}
+.four-one h2{
+	color: #515151;
+}
+.four-one p{
+	color:#cfcfcf; 
+}
+.btn-four{
+	margin-top: 100px;
+	padding: 5px 10px;
+}
+/* section five start*/
+.five-a{
+	width: 100%;
+	position: relative;
+}
+.five-a h2{
+	font-size: 17pt;
+}
+.five-a h5{
+	font-size: 12pt;
+}
+.left{
+	position:absolute;
+	left: 10%;
+	top: 
+
+} 
+.right{
+	position: absolute;
+	right: 20%;
+	top: 
+}
+.low{
+	position: absolute;
+	right: 30%;
+	top: 99%;
+}
+.uper{
+	position: absolute;
+	background:#26a6d1;
+	color:#d4edf6; 
+	font-size:16px;
+	right: 80px;
+	top: 173px;
+	border: none;
+	padding:5px;
+}
+
+/* section five start*/
+.five-a{
+	height: 520px;
+	position: relative;
+}
+.city-img{
+	width: 100%;
+	position:absolute;
+	top: 0px;
+	left: 10%;
+	height: 229px;
+
+}
+.btn-five{
+	background: #26a6d1;
+	border:none;
+	position: absolute;
+	left: 55%;
+	top: 33%;
+
+
+}
+.five-a h3{
+	position: absolute;
+	top: 47%;
+	left: 10%;
+
+}
+.five-a p{
+	position: absolute;
+	top: 55%;
+	left: 10%;
+}
+.five-a span{
+	border-bottom: 3px solid #14A58C;
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+	
+}
+.five-a a {
+	position: absolute;
+	top: 90%;
+	left: 55%;
+	color: black;
+}
+.left: {
+	position: absolute;
+	top: 70%;
+	left: 10%;
+
+}
+.right{
+	position: absolute;
+	top: 70%;
+	right: 10%;
+}
+/* section six start*/
+.six img{
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+/*section seven start*/
+.seven span{
+	display: block;
+	width: 100%;
+	border-bottom: 2px solid grey;
+
+
+}
+
+.seven p{
+	text-align: center;
+	margin: 20px 0;
+}
+
+/* media Query*/
+@media (min-width: 501px) and (max-width: 768px){
+	.three img{
+	    display: block;
+        margin: 20px 101px;
+}
+.three-a{
+	flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+} 
+three-b{
+	width: 100%;
+	text-align: center;
+}
+}
